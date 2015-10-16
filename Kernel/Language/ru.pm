@@ -43,7 +43,7 @@ sub Data {
     $Self->{Translation} = {
 
         # Template: AAABase
-        'Yes' => 'Да',
+        'Yes' => 'ДаLFLF',
         'No' => 'Нет',
         'yes' => 'да',
         'no' => 'нет',
