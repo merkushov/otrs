@@ -1,0 +1,107 @@
+/**
+ * @project     OTRS (http://www.otrs.org) - Agent Frontend
+ * @copyright   OTRS AG
+ * @license     AGPL (http://www.gnu.org/licenses/agpl.txt)
+ */
+
+/**
+ * @package     Skin "Default"
+ * @section     Default Settings
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection ArticleList Expanding
+ */
+
+.FAQ .OverviewControl div {
+    padding: 0px;
+}
+
+.FAQ #OverviewBody {
+    margin: 0 0 8px 0;
+}
+
+/**
+ * @subsection Large SidebarColumn
+ */
+
+.LayoutFixedSidebar.SidebarLast > .SidebarColumn.Large {
+    width: 350px;
+    float: right;
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+.LayoutFixedSidebar.SidebarLast > .SidebarColumn.Medium {
+    width: 290px;
+    float: right;
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+/**
+ * @subsection FAQMiniList
+ */
+
+ul.FAQMiniList span {
+    display: block;
+    font-size: 10px;
+}
+
+
+/**
+ * @subsection Category path
+ */
+
+.FAQPathCategory {
+    margin-bottom: 13px !important;
+    height: auto;
+    min-height: 25px;
+    margin: 0 -1px;
+    background: #e5e6e6;
+    position: relative;
+    overflow: hidden;
+}
+
+.FAQPathCategory h3 {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+.FAQPathCategory h3 > a:last-of-type {
+    font-weight: bold;
+}
+
+.FAQPathCategory h3 > span:last-child {
+    display: none;
+}
+
+iframe.TextOption.FAQ {
+    width: 900px;
+    min-height: 600px;
+}
+
+iframe.FAQField {
+    width: 100%;
+    frameborder: 0;
+}
+
+fieldset.TableSmall > div.Field {
+    margin-left: 24% !important;
+}
+
+fieldset.TableSmall > label {
+    width: 24% !important;
+}
+
+fieldset.TableSmall > div.FAQDivider {
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
