@@ -44,7 +44,7 @@ sub Data {
 
         # Template: AAABase
         'Yes' => 'ДаLFLF',
-        'No' => 'Нет',
+        'No' => 'НетNoNo',
         'yes' => 'да',
         'no' => 'нет',
         'Off' => 'Выключено',
